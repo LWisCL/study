@@ -19,6 +19,13 @@ NS_ASSUME_NONNULL_BEGIN
  
  */
 {
+    /*
+     笔记：经过试验成员变量ivar的值用runtime获取的时候如果是成员变量 则获取的是当时定义的名称  如果是用@property定义的属性则是在属性名称之前加上下划线 作为成员变量名称
+     
+     
+     疑问：
+     
+     */
     person *_father;
     
     person *mother;
