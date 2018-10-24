@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB13832D217F4F8A0034D4F3 /* pointer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB13832C217F4F8A0034D4F3 /* pointer.m */; };
 		AB742F99217CDF4A000AE94D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB742F98217CDF4A000AE94D /* AppDelegate.m */; };
 		AB742F9C217CDF4A000AE94D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB742F9B217CDF4A000AE94D /* ViewController.m */; };
 		AB742F9F217CDF4A000AE94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB742F9D217CDF4A000AE94D /* Main.storyboard */; };
@@ -44,7 +45,6 @@
 		AB743056217CE080000AE94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB743054217CE080000AE94D /* LaunchScreen.storyboard */; };
 		AB743059217CE080000AE94D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB743058217CE080000AE94D /* main.m */; };
 		AB74305F217CE0D2000AE94D /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = AB74305E217CE0D2000AE94D /* person.m */; };
-		CE29B9BC217D9C8A0064F2AC /* pointer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE29B9BB217D9C8A0064F2AC /* pointer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +61,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB13832B217F4F8A0034D4F3 /* pointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointer.h; sourceTree = "<group>"; };
+		AB13832C217F4F8A0034D4F3 /* pointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pointer.m; sourceTree = "<group>"; };
 		AB742F94217CDF4A000AE94D /* learningiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learningiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB742F97217CDF4A000AE94D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB742F98217CDF4A000AE94D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -123,8 +125,6 @@
 		AB743058217CE080000AE94D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB74305D217CE0D2000AE94D /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
 		AB74305E217CE0D2000AE94D /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
-		CE29B9BA217D9C8A0064F2AC /* pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointer.h; sourceTree = "<group>"; };
-		CE29B9BB217D9C8A0064F2AC /* pointer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +284,8 @@
 		AB743048217CE07F000AE94D /* C */ = {
 			isa = PBXGroup;
 			children = (
+				AB13832B217F4F8A0034D4F3 /* pointer.h */,
+				AB13832C217F4F8A0034D4F3 /* pointer.m */,
 				AB743049217CE07F000AE94D /* AppDelegate.h */,
 				AB74304A217CE07F000AE94D /* AppDelegate.m */,
 				AB74304C217CE07F000AE94D /* ViewController.h */,
@@ -293,8 +295,6 @@
 				AB743054217CE080000AE94D /* LaunchScreen.storyboard */,
 				AB743057217CE080000AE94D /* Info.plist */,
 				AB743058217CE080000AE94D /* main.m */,
-				CE29B9BA217D9C8A0064F2AC /* pointer.h */,
-				CE29B9BB217D9C8A0064F2AC /* pointer.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -577,7 +577,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB74304E217CE07F000AE94D /* ViewController.m in Sources */,
-				CE29B9BC217D9C8A0064F2AC /* pointer.m in Sources */,
+				AB13832D217F4F8A0034D4F3 /* pointer.m in Sources */,
 				AB743059217CE080000AE94D /* main.m in Sources */,
 				AB74304B217CE07F000AE94D /* AppDelegate.m in Sources */,
 			);
