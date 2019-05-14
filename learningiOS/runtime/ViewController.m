@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self methodTest];
+    [self getProperty];
     // Do any additional setup after loading the view, typically from a nib.
 }
 /*
