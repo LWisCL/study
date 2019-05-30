@@ -51,6 +51,13 @@
 		CE1A0609228400C500F39766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1A0608228400C500F39766 /* Assets.xcassets */; };
 		CE1A060C228400C500F39766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1A060A228400C500F39766 /* LaunchScreen.storyboard */; };
 		CE1A060F228400C500F39766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1A060E228400C500F39766 /* main.m */; };
+		CE915F7C228A8EC900233CFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE915F7B228A8EC900233CFD /* AppDelegate.m */; };
+		CE915F7F228A8EC900233CFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE915F7E228A8EC900233CFD /* ViewController.m */; };
+		CE915F82228A8EC900233CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE915F80228A8EC900233CFD /* Main.storyboard */; };
+		CE915F84228A8ECC00233CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE915F83228A8ECC00233CFD /* Assets.xcassets */; };
+		CE915F87228A8ECC00233CFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE915F85228A8ECC00233CFD /* LaunchScreen.storyboard */; };
+		CE915F8A228A8ECC00233CFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE915F89228A8ECC00233CFD /* main.m */; };
+		CE915FAC228A8F0700233CFD /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = CE915FAB228A8F0700233CFD /* GCD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -141,6 +148,18 @@
 		CE1A060B228400C500F39766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE1A060D228400C500F39766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE1A060E228400C500F39766 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE915F78228A8EC800233CFD /* 多线程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多线程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE915F7A228A8EC900233CFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE915F7B228A8EC900233CFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE915F7D228A8EC900233CFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE915F7E228A8EC900233CFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE915F81228A8EC900233CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE915F83228A8ECC00233CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE915F86228A8ECC00233CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE915F88228A8ECC00233CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE915F89228A8ECC00233CFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE915FAA228A8F0700233CFD /* GCD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
+		CE915FAB228A8F0700233CFD /* GCD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +212,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE915F75228A8EC800233CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -206,6 +232,7 @@
 				AB74302E217CE074000AE94D /* animation */,
 				AB743048217CE07F000AE94D /* C */,
 				CE1A05FE228400C200F39766 /* autolayout */,
+				CE915F79228A8EC900233CFD /* 多线程 */,
 				AB742F95217CDF4A000AE94D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -220,6 +247,7 @@
 				AB74302D217CE074000AE94D /* animation.app */,
 				AB743047217CE07F000AE94D /* C.app */,
 				CE1A05FD228400C100F39766 /* autolayout.app */,
+				CE915F78228A8EC800233CFD /* 多线程.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -338,6 +366,24 @@
 				CE1A060E228400C500F39766 /* main.m */,
 			);
 			path = autolayout;
+			sourceTree = "<group>";
+		};
+		CE915F79228A8EC900233CFD /* 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				CE915F7A228A8EC900233CFD /* AppDelegate.h */,
+				CE915F7B228A8EC900233CFD /* AppDelegate.m */,
+				CE915F7D228A8EC900233CFD /* ViewController.h */,
+				CE915F7E228A8EC900233CFD /* ViewController.m */,
+				CE915F80228A8EC900233CFD /* Main.storyboard */,
+				CE915F83228A8ECC00233CFD /* Assets.xcassets */,
+				CE915F85228A8ECC00233CFD /* LaunchScreen.storyboard */,
+				CE915F88228A8ECC00233CFD /* Info.plist */,
+				CE915F89228A8ECC00233CFD /* main.m */,
+				CE915FAA228A8F0700233CFD /* GCD.h */,
+				CE915FAB228A8F0700233CFD /* GCD.m */,
+			);
+			path = "多线程";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,6 +509,23 @@
 			productReference = CE1A05FD228400C100F39766 /* autolayout.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CE915F77228A8EC800233CFD /* 多线程 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE915FA7228A8ECC00233CFD /* Build configuration list for PBXNativeTarget "多线程" */;
+			buildPhases = (
+				CE915F74228A8EC800233CFD /* Sources */,
+				CE915F75228A8EC800233CFD /* Frameworks */,
+				CE915F76228A8EC800233CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多线程";
+			productName = "多线程";
+			productReference = CE915F78228A8EC800233CFD /* 多线程.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -493,6 +556,9 @@
 					CE1A05FC228400C100F39766 = {
 						CreatedOnToolsVersion = 10.2;
 					};
+					CE915F77228A8EC800233CFD = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = AB742F8F217CDF4A000AE94D /* Build configuration list for PBXProject "learningiOS" */;
@@ -515,6 +581,7 @@
 				AB74302C217CE074000AE94D /* animation */,
 				AB743046217CE07F000AE94D /* C */,
 				CE1A05FC228400C100F39766 /* autolayout */,
+				CE915F77228A8EC800233CFD /* 多线程 */,
 			);
 		};
 /* End PBXProject section */
@@ -590,6 +657,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE915F76228A8EC800233CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE915F87228A8ECC00233CFD /* LaunchScreen.storyboard in Resources */,
+				CE915F84228A8ECC00233CFD /* Assets.xcassets in Resources */,
+				CE915F82228A8EC900233CFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -662,6 +739,17 @@
 				CE1A0604228400C200F39766 /* ViewController.m in Sources */,
 				CE1A060F228400C500F39766 /* main.m in Sources */,
 				CE1A0601228400C200F39766 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE915F74228A8EC800233CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE915F7F228A8EC900233CFD /* ViewController.m in Sources */,
+				CE915F8A228A8ECC00233CFD /* main.m in Sources */,
+				CE915FAC228A8F0700233CFD /* GCD.m in Sources */,
+				CE915F7C228A8EC900233CFD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,6 +864,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				CE1A060B228400C500F39766 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE915F80228A8EC900233CFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE915F81228A8EC900233CFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE915F85228A8ECC00233CFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE915F86228A8ECC00233CFD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1137,6 +1241,42 @@
 			};
 			name = Release;
 		};
+		CE915FA1228A8ECC00233CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPD33YZFS3;
+				INFOPLIST_FILE = "多线程/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chenlei.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE915FA2228A8ECC00233CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPD33YZFS3;
+				INFOPLIST_FILE = "多线程/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chenlei.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1208,6 +1348,15 @@
 			buildConfigurations = (
 				CE1A0626228400C700F39766 /* Debug */,
 				CE1A0627228400C700F39766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE915FA7228A8ECC00233CFD /* Build configuration list for PBXNativeTarget "多线程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE915FA1228A8ECC00233CFD /* Debug */,
+				CE915FA2228A8ECC00233CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
